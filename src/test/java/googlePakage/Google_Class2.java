@@ -23,8 +23,6 @@ public class Google_Class2 {
 	WebDriver driver = null;
 	String BaseURL = "https://www.google.com/";
 
-
-	
 	@BeforeMethod
 	public void beforeMethod() {
 	

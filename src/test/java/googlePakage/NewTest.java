@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 public class NewTest {
   @Test
   public void f() {
+	  
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\GoogleTest\\Resouces\\chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
