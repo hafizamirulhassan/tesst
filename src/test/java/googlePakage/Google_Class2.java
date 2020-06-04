@@ -29,7 +29,6 @@ public class Google_Class2 {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\GoogleTest\\Resouces\\chromedriver.exe");
 		   driver = new ChromeDriver();
 			driver.get(BaseURL);
-
 	}
 	
 	@Test
