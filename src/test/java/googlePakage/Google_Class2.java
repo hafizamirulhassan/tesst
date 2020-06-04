@@ -3,8 +3,6 @@ package googlePakage;
 import org.testng.annotations.Test;
 
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
